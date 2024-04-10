@@ -16,7 +16,7 @@ const viewsPath = path.join(__dirname, 'views');
 
 const students = [];
 
-app.get('/homepage', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(viewsPath, 'homepage.html'));
 });
 

@@ -1,0 +1,71 @@
+(ax + b = 0):
+
+Znajdź współczynnika „a” i „b” w równanie.
+Jeśli „a” wynosi zero, równanie nie jest liniowe i nie ma jednoznacznej rozwiązania
+W innym razie znajdź „x” za pomocą wzoru: x = -b/a.
+Wyprowadź wartość „x” jako rozwiązanie równania liniowego.
+Schemat blokowe:
+                (Określ współczynniki a i b)
+                             |
+                             V
+          (a jest 0?)
+           /                    \
+          /                      \
+  Nie:    |                        | Tak:
+          |                       \/
+          V                 [Nie ma solucji]
+Rozwiązania x: x = -b/a
+          |
+          V
+ Wyjście x jako rozwiązanie]
+
+
+(ax^2 + bx + c = 0)
+
+Znajdź współczynnki „a”, „b” i „c” w równanie.
+Oblicz dyskryminatoyr ze wzoru: dyskryminatory = b^2 - 4ac.
+Jeśli dyskryminator jest ujemny, nie ma rzeczywistego rozwiązań.
+Jeśli dyskryminator wynosi zero, istnieje jedno rzeczywiste rozwiązanie dane przez: x = -b / (2a).
+Jeśli dyskryminator jest dodatni, istnieją dwa rzeczywiste rozwiązania podane wzorem: x = (-b ± √ dyskryminator) / (2a).
+Wyprowadź rozwiązania równania kwadratowego.
+Schemat blokowe:
+
+              		a, b, and c
+                             |
+                             V
+        [Oblicz dyskryminatiry: b^2 - 4ac]
+                             |
+             	    jest negatywny?
+           /                            \
+          /                              \
+  Nie:    |                                | Tak:
+          |                                |
+          V                                V
+     oblicz solujce            nie ma zadnych solucji
+          |
+          V
+  wysjie solutions
+
+
+Algorytm GCD 
+
+Biorący pod uwagę dwie liczby „a” i „b”.
+Powtarzaj, aż „a” i „b” będą równy:
+A. Jeśli „a” jest większe niż „b”, odejmij „b” od „a”.
+B. Jeśli „b” jest większe niż „a”, odejmij „a” od „b”.
+Wyprowadź wartość „a” (lub „b”, ponieważ są teraz równe) jako GCD.
+Schemat blokowy:
+
+           	 a and b
+                     |
+                     V
+                to są równe?
+           /                    \
+          /                      \
+  Nie:    |                        | tak:
+          |                       \/
+          V                  Wyprowadź GCD jako a lub b
+     Odejmij mniejsze od większej
+          |
+          V
+  dalej zanim a i b są równe

@@ -1,11 +1,8 @@
 {
-  "name": "mvc-1",
+  "name": "zad3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "Express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8",
-    "react-router-dom": "^6.22.3"
+    "ejs": "^3.1.9",
+    "js": "^0.1.0",
+    "react": "^18.2.0"
   }
 }
